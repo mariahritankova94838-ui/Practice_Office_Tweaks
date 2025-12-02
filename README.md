@@ -11,7 +11,6 @@
 - [Установка](#установка)
 - [Запуск](#запуск)
 - [Сборка](#сборка)
-- [Структура](#структура)
 
 ## 🚀 Описание
 
@@ -83,18 +82,4 @@ dist/Office_Tweaks.exe
 ## 🔨 Сборка
 
 pyinstaller --onefile --console --name Office_Tweaks office_tweaks.py
-## 📂 Структура проекта
-
-Office_Tweaks/
-├── office_tweaks.py
-├── requirements.txt
-├── README.md
-├── Office_Tweaks.spec
-├── build/
-├── dist/
-├── converter.py
-├── file_manager.py
-├── image_processor.py
-├── menu.py
-└── utils.py
 
